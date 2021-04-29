@@ -1,0 +1,70 @@
+@import url(https://fonts.google.com/specimen/Orelega+One#standard-styles);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family:Orelega One;
+    background-image: url(https://i.gifer.com/Cwgf.gif);
+}
+body{
+    background-image: url(https://studio.code.org/v3/assets/hTOKC2-Q3nkUS3tLR0yP2oVZFbIh3lJL0BcbC4NeKss/ca.gif);
+    
+    font-family: monospace;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+ 
+}
+.calculator{
+   width: 350px;
+   background: rgb(255, 255, 255);
+   border-radius: 20px;
+   box-shadow: 2px 2px 8px rgb(0, 0, 0);
+}
+input[type="text"]{
+    height: 60px;
+    width: 300px;
+    margin-top: 40px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 8px rgba(255, 255, 255, 0.63);
+    color: white;
+    font-size: 22px;
+    text-align: right;
+    padding-right: 20px;
+    background-color: rgb(235, 225, 225);
+
+}
+form .button{
+    width: 300px;
+    margin: 10px 25px 0 25px;
+    padding: 10px 0;
+}
+input[type="button"]{
+    width: 60px;
+    height: 55px;
+    margin: 5px;
+    font-size: 22px;
+    line-height: 55px;
+    border-radius: 50%;
+    border: 1px solid #d9d9d9;
+    background: linear-gradient(#d9d9d9,#bfbfbf);
+}
+
+input[type="button"]:hover{
+    transition: .5S;
+    background: linear-gradient(#bfbfbf,#d9d9d9);
+}
+
+input#clear{
+    background: rgb(255, 148, 8);
+    background-image:url("https://media1.giphy.com/media/0d0EVorJWS0pA1gQDI/source.gif");
+    background-size: 60px 60px;
+    
+}
+input#equal{
+    background:rgb(39, 245, 11);
+    background-image: url(https://media.tenor.com/images/b2fde4269798124f71ed9c77b218f207/tenor.gif);
+    background-size: 55px 55px;
+}
